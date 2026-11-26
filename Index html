@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GK AI PRO</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #080d1c;
+  color: white;
+  text-align: center;
+}
+header {
+  background: #151f3d;
+  padding: 25px;
+  color: #00eaff;
+  font-size: 28px;
+  font-weight: bold;
+}
+.box {
+  margin: 25px auto;
+  padding: 20px;
+  max-width: 450px;
+}
+textarea {
+  width: 95%;
+  height: 130px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+button {
+  background: #00d9ff;
+  color: #000;
+  border: 0;
+  padding: 13px 25px;
+  border-radius: 10px;
+  font-size: 17px;
+  margin: 10px;
+}
+#answer {
+  background: #182443;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
+</style>
+</head>
+<body>
+
+<header>🤖 GK AI PRO</header>
+
+<div class="box">
+<h2>आपका अपना AI Chat</h2>
+<p>Ask Anything | कुछ भी पूछें</p>
+
+<textarea id="question" placeholder="यहाँ अपना सवाल लिखें..."></textarea>
+
+<br>
+<button onclick="askAI()">Ask AI</button>
+
+<div id="answer">आपका जवाब यहाँ आएगा।</div>
+</div>
+
+<script>
+async function askAI() {
+  document.getElementById("answer").innerText =
+  "AI चालू करने के लिए सुरक्षित API Backend जोड़ना बाकी है।";
+}
+</script>
+
+</body>
+</html>
